@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    map<int,int>mp;
+ vector<int>v={2,2,3,1,2};
+ //evave o kora jay: for(auto u:v) mp[u]++;
+ for(int i=0;i<v.size();i++)
+ {
+    mp[v[i]]=1;//v[i] value ta taklee seta tee 1 kore seta ache seta bujhacchi.
+ }
+for(auto u:mp) cout<<u.first<<' '<<u.second<<endl;
+return 0;
+}
